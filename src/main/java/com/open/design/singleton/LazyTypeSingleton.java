@@ -5,16 +5,16 @@ package com.open.design.singleton;
  * @author: liuxiaowei
  * @date: 2021年06月05日 9:57
  */
-public class Singleton002 {
+public class LazyTypeSingleton {
 
-    private static Singleton002 instance;
+    private static LazyTypeSingleton instance;
 
-    private Singleton002() {
+    private LazyTypeSingleton() {
     }
 
-    public static Singleton002 getUniqueInstance() {
+    public static LazyTypeSingleton getInstance() {
         if (instance == null) {
-            instance = new Singleton002();
+            instance = new LazyTypeSingleton();
         }
         return instance;
     }
