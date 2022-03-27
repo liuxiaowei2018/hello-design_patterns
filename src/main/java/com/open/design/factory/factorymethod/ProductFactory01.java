@@ -1,11 +1,11 @@
 package com.open.design.factory.factorymethod;
 
 /**
- * @Description: TODO
+ * @Description: 创建工厂01
  * @author: liuxiaowei
  * @date: 2021年06月05日 10:43
  */
-public class FactoryMethodFactory01 extends FactoryMethodFactory{
+public class ProductFactory01 extends FactoryMethod {
 
     @Override
     public FactoryMethodProduct factoryMethod() {
