@@ -7,4 +7,8 @@ package com.open.design.factory.simplefactory;
  */
 public class SimpleFactoryProduct01 implements SimpleFactoryProduct {
 
+    public SimpleFactoryProduct01() {
+        System.out.println("构造---SimpleFactoryProduct01");
+    }
+
 }
