@@ -1,4 +1,4 @@
-package com.open.design.staticproxy.tip001;
+package com.open.design.proxy.staticproxy.tip001;
 
 import java.math.BigDecimal;
 
