@@ -1,7 +1,8 @@
 package com.open.design.responsibilitychain;
 
 /**
- * @Description: TODO
+ * @Description: ConcreteHandler1
+ * 构建Handler1，内部实现handleRequest方法，判断一下是否是当前处理应该处理的业务逻辑，不是则向下传递
  * @author: liuxiaowei
  * @date: 2021年06月05日 10:58
  */
