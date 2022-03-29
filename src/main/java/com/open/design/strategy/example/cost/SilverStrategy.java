@@ -1,4 +1,4 @@
-package com.open.design.easystrategy;
+package com.open.design.strategy.example.cost;
 
 import java.math.BigDecimal;
 
@@ -8,6 +8,7 @@ import java.math.BigDecimal;
  * @Description 白银会员策略
  */
 public class SilverStrategy implements Strategy{
+
     @Override
     public BigDecimal compute(BigDecimal cost) {
         System.out.println("白银会员 优惠50元");

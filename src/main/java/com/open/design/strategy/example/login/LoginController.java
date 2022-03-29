@@ -1,4 +1,4 @@
-package com.open.design.strategy.tip002;
+package com.open.design.strategy.example.login;
 
 import com.open.extension.R;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description: TODO
+ * @Description: 登录接口
  * @author: liuxiaowei
  * @date: 2021年06月05日 9:39
  */

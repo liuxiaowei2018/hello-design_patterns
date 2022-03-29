@@ -1,4 +1,4 @@
-package com.open.design.strategy.tip002;
+package com.open.design.strategy.example.login;
 
 import lombok.Data;
 

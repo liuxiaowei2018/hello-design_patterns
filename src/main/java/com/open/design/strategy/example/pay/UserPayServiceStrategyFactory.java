@@ -1,4 +1,4 @@
-package com.open.design.strategy.tip003;
+package com.open.design.strategy.example.pay;
 
 import org.springframework.util.Assert;
 

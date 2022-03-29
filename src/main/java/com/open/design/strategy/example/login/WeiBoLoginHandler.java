@@ -1,27 +1,27 @@
-package com.open.design.strategy.tip002;
+package com.open.design.strategy.example.login;
 
 import com.open.extension.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-
 import java.io.Serializable;
 
 /**
  * @Description: TODO
  * @author: liuxiaowei
- * @date: 2021年06月05日 9:31
+ * @date: 2021年06月05日 9:32
  */
 @Component
 @Slf4j
-public class QQLoginHandler implements LoginHandler<Serializable> {
+public class WeiBoLoginHandler implements LoginHandler<Serializable> {
 
     @Override
     public LoginType getLoginType() {
-        return LoginType.QQ;
+        return LoginType.WEI_BO;
     }
 
     @Override
     public R<?> handleLogin(LoginRequest request) {
-        return R.success(null,"QQ登录成功");
+        log.info("微博登录：userId：{}", request.getUserId());
+        return R.success(null,"微博登录成功");
     }
 }

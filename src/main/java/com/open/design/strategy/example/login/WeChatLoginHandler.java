@@ -1,4 +1,4 @@
-package com.open.design.strategy.tip002;
+package com.open.design.strategy.example.login;
 
 import com.open.extension.R;
 import lombok.extern.slf4j.Slf4j;

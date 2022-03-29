@@ -1,4 +1,4 @@
-package com.open.design.easystrategy;
+package com.open.design.strategy.example.cost;
 
 import java.math.BigDecimal;
 
