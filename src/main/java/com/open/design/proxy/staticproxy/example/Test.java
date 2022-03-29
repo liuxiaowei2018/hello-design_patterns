@@ -1,8 +1,8 @@
-package com.open.design.proxy.staticproxy.tip001;
+package com.open.design.proxy.staticproxy.example;
 
 import java.math.BigDecimal;
 
-public class TestTip001 {
+public class Test {
 
     public static void main(String[] args) {
         PayService payService = new PayServiceImpl();

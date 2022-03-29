@@ -1,4 +1,4 @@
-package com.open.design.proxy.dynamicproxy;
+package com.open.design.proxy.dynamicproxy.example;
 
 import java.math.BigDecimal;
 
